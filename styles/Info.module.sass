@@ -1,0 +1,68 @@
+@import 'styles/screenSize'
+.infoBlubb
+  background-image: url("/image/infoBlubbMobil.svg")
+  width: 342px
+  height: 224px
+  h1
+    font-weight: 500
+    font-size: 32px
+    line-height: 40px
+    margin: 82px 0 0 15px
+    text-align: center  
+.main
+  display: flex
+  align-items: center
+  flex-direction: column
+.infoBox
+  width: 342px
+  h2
+    font-weight: 500
+    font-size: 32px
+    line-height: 40px
+    margin: 48px 0 24px 0
+  h3
+    font-weight: 700
+    font-size: 24px
+    line-height: 32px
+    margin: 0 0 16px
+  p
+    font-weight: 400
+    font-size: 20px
+    line-height: 32px
+    margin: 0 0 32px      
+.flowerBox  
+  display: none  
+.footer
+  background-image: url("/image/footerMobil.svg")
+  width: 100%
+  height: 96px
+  display: flex
+  align-items: center
+  flex-direction: column
+  margin-top: 56px
+
+@media (min-width: $desktop)
+  .infoBlubb
+    background-image: url("/image/infoBlubbDesktop.svg")
+    width: 1128px
+    h1
+      font-weight: 500
+      font-size: 40px
+      line-height: 64px
+  .infoAndFlowerContainer
+    display: flex
+    justify-content: space-between
+    width: 1128px 
+    margin-top: 96px  
+  .infoBox
+    width: 744px
+    h2
+      margin: 0 0 24px 0
+  .flowerBox
+    display: flex
+    align-items: center
+  .footer
+    background-image: url("/image/footerDesktop.svg")
+    width: 100%
+    height: 329px
+    margin-top: 72px 

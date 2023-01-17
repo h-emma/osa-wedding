@@ -1,0 +1,26 @@
+@import 'styles/screenSize'
+.nav 
+  display: flex
+  justify-content: center
+  flex-direction: row
+  gap: 24px
+  margin-bottom: 36px
+  a 
+    display: flex
+    align-items: center
+    padding-left: 8px
+    padding-right: 8px
+    text-decoration: none
+    font-weight: 700
+    font-size: 24px
+    line-height: 32px
+.nonActive 
+  color: black
+.active 
+  color: black
+  border-bottom: 3px solid rgba(0, 0, 0, 0.88)
+
+@media (min-width: $desktop)
+  .nav
+    justify-content: flex-start
+    margin-bottom: 52px
