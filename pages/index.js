@@ -7,12 +7,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title></title>
+        <title>Emma och Peter</title>
         <meta
           name="description"
           content="Hemsida för bröllop mellan Emma och Peter"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <Nav />
       <main className={styles.main}>
