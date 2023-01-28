@@ -20,22 +20,26 @@ export default function Home() {
           <h1>Hej!</h1>
           <p>
             Om du hittat hit får vi anta att du blivit inbjuden till bröllopet
-            mellan Emma Hansson & Peter Hogen. Här kommer du och ditt eventuella
-            sällskap kunna OSA och hitta all relevant information
+            mellan Emma Hansson & Peter Hogen. Här kan du/ni OSA och hitta all
+            relevant information gällande bröllopet.
           </p>
         </div>
         <div className={styles.textOSA}>
           <h2>OSA till bröllopet</h2>
           <p>
-            Fyll i dina uppgifter för de som inbjudan är addreserad till. Man
-            kan bara lägga till en person åt gången.
+            Formuläret nedan gäller för en person. Så är ni flera på inbjudan
+            får ni skicka ett svar till.
           </p>
         </div>
         <Form />
         <p className={styles.contactUs}>
-          Så du vet- om du har någon fråga eller av någon anledning inte känner
-          för att skicka in ditt svar kan du maila carlpeterhogen@gmail.com
-          eller ring 0768468706
+          Om du har någon fråga eller av någon anledning inte känner för att
+          skicka in ditt svar i formulätet kan du maila{" "}
+          <a href="mailto:emmaochpeter2023@gmail.com">
+            emmaochpeter2023@gmail.com
+          </a>{" "}
+          eller ringa <a href="tel:0768468706">076-846 87 06</a> (Peter) eller{" "}
+          <a href="tel:0707468548">070-746 85 48</a> (Emma)
         </p>
       </main>
       <footer className={styles.footer}></footer>

@@ -78,7 +78,7 @@ export default function Form() {
           <input
             type="text"
             value={allergies}
-            placeholder="Skriv om vi behöver veta något"
+            placeholder="Skriv OM vi behöver veta något"
             onChange={(e) => setAllergies(e.target.value)}
           />
           <button type="submit">OSA TILL BRÖLLOPET</button>
@@ -87,12 +87,13 @@ export default function Form() {
       {isModuleOpen && (
         <div className={styles.popupBox}>
           <div className={styles.box}>
-            <h2>Såja!</h2>
+            <h2>Tack för ditt svar!</h2>
             <p>
-              Du är nu anmäld till bröllopet. Hjärtligt välkommen. Om ni är
-              flera som är inbjudna är det bara att göra en till anmälan. Annars
-              är du/ni helt klara. Då är det bara att pressa byxorna, sula
-              skorna eller vad man nu gör så syns vi i Göteborg 17/6-23.
+              Om du svarade att du inte kan komma, vad synd. Annars är vi
+              väldigt glada över att du vill vara med på vår dag! Tänk på att
+              formuläret gäller enbart en person så är ni flera på inbjudan,
+              fyll det igen. Då är det bara att pressa byxorna, sula skorna
+              eller vad man nu gör så syns vi i Göteborg 17/6-2023.
             </p>
             <button type="button" onClick={() => setIsModuleOpen(false)}>
               TILLBAKA TILL SIDAN
