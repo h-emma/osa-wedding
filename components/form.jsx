@@ -1,7 +1,7 @@
 import styles from "../styles/Form.module.sass";
 import { useState } from "react";
 import { db } from "../firebase/firebase.js";
-import { collection, addDoc } from "firebase/firestore";
+import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 
 export default function Form() {
   const [isModuleOpen, setIsModuleOpen] = useState(false);
@@ -19,6 +19,7 @@ export default function Form() {
       lastName,
       answer,
       allergies,
+      createdAt: serverTimestamp(),
     };
     await addDoc(collectionRef, payload);
 
