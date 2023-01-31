@@ -35,12 +35,16 @@ export default function Info() {
             <h3>Bo</h3>
             <p>
               För långväga gäster eller ni som vill festa till det lite finns
-              det många möjligheter till hotell. Om man vill bo 200 meter från
-              festlokalen finns <b>Kviberg Park Hotell & Conference</b>.
-              Skidtunnel finns i direkt anslutning till hotellet (100 meter
-              kortare än den i Torsby så egentligen är den inget att ha). För
-              lite mer flärdfulla alternativ finns alla typer av möjligheter
-              inne i city.
+              det många möjligheter till hotell.{" "}
+              <b>
+                Under fredagen den 16/6 är det dock ett gäng hårdrockare i stan
+                och det kan bli lite svårare och dyrare att hitta hotell.
+              </b>{" "}
+              Vill man bo 200 meter från festlokalen finns{" "}
+              <b>Kviberg Park Hotell & Conference</b>. Skidtunnel finns i direkt
+              anslutning till hotellet (100 meter kortare än den i Torsby så
+              egentligen är den inget att ha). För lite mer flärdfulla
+              alternativ finns alla typer av möjligheter inne i city.
             </p>
             <h3>Presenter</h3>
             <p>
