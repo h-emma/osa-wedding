@@ -71,7 +71,7 @@ export default function Info() {
             </p>
             <h3>Markus Vestergaard: </h3>
             <p>
-              <a href="tel:0768959077">076-895 90 77</a>
+              <a href="tel:0768958977">076-895 89 77</a>
             </p>
             <h3>Eller på mail: </h3>
             <a href="mailto:emmaochpeterstoastmasters@gmail.com">
